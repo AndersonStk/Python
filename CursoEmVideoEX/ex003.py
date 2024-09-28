@@ -1,0 +1,7 @@
+algo = input('Digite alguma coisa: ')
+print(algo.isalpha())
+print(algo.isalnum())
+print(algo.isnumeric())
+print(algo.islower())
+print(algo.isspace())
+print(algo.isupper())

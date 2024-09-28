@@ -1,0 +1,5 @@
+nome = str(input('Digite uma frase: ')).strip().upper()
+letra_a = nome.count('A')
+print(f'Sua frase tem \033[32m{letra_a}\033[m letras')
+print(f'A primeira vez que a letra "A" aparece é na posição {nome.find('A') + 1}')
+print(f'A ultima vez que a letra "A" aparece é na posição {nome.rfind('A')}')

@@ -1,0 +1,1 @@
+print(f'\033[1;36mOla, Mundo!\033[m')
